@@ -43,7 +43,7 @@ export default function UserButton() {
       )}
       {status === 'unauthenticated' && (
         <Button
-          className='bg-teal-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700'
+          className='bg-teal-600 text-white transition hover:bg-teal-700'
           onClick={() => signIn()}
         >
           Sign in
