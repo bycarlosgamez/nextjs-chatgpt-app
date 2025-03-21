@@ -40,9 +40,9 @@ export default function Chat() {
           <div
             className={`${
               message.role === 'user'
-                ? 'border-teal-500 border bg-teal-500'
-                : 'border-gray-500 border bg-gray-500 text-black'
-            } rounded-md py-2 px-8`}
+                ? 'mr-2 bg-blue-400 rounded-bl-2xl rounded-tl-2xl rounded-tr-xl'
+                : 'ml-2 bg-gray-400 rounded-br-2xl rounded-tr-2xl rounded-tl-xl'
+            } py-3 px-4 text-gray-800`}
           >
             {message.content}
           </div>
